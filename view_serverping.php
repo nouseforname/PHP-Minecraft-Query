@@ -12,7 +12,7 @@ use xPaw\MinecraftPingException;
 	Error_Reporting( E_ALL | E_STRICT );
 	Ini_Set( 'display_errors', true );
 
-	require __DIR__ . '/src/MinecraftServerPing.php';
+	require __DIR__ . '/src/MinecraftPing.php';
 
 	$Timer = MicroTime( true );
 
