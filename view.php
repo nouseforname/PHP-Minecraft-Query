@@ -12,7 +12,7 @@ define( 'MQ_SERVER_ADDR', 'localhost' );
 	Error_Reporting( E_ALL | E_STRICT );
 	Ini_Set( 'display_errors', true );
 
-	require __DIR__ . '/src/MinecraftQuery.class.php';
+	require __DIR__ . '/src/MinecraftQuery.php';
 
 	$Timer = MicroTime( true );
 
